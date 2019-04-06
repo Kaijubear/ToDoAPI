@@ -12,7 +12,7 @@ namespace ToDoApi.Models
         {
         }
 
-        public DbSet<ToDoItems> ToDoItems { get; set; }
+        public DbSet<ToDoItem> ToDoItems { get; set; }
 
     }
 }
